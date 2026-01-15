@@ -27,7 +27,7 @@ const gallery = document.getElementById('photoGallery');
 const imageInput = document.getElementById('petImage');
 const previewImage = document.getElementById('preview');
 
-const apiBaseUrl = "https://i4lwox07l9.execute-api.us-east-1.amazonaws.com/prod";
+const apiBaseUrl = "";
 
 // --- FUNCIONES IMAGE SIZING ---
 function resizeImageToDataURL(file, width, height, callback) {
